@@ -5,21 +5,21 @@ Tool parts that I chose: (Part 3) Robot Framework, (Part 4) Cypress
 ## Part 0
 - Step 0.1, Chrome version: 148.0.7778.179
 - Step 0.3, ChromeDriver version: 148.0.7778.179
-- Step 0.4, locator of Pizza, Please!: 
-- Step 0.4, locator of Excluded tools: 
-- Step 0.4, locator of Must be vegetarian: 
-- Step 0.4, locator of Custom Pizza Name: 
-- Step 0.5, pizza name, tool and calories of the run by hand: 
+- Step 0.4, locator of Pizza, Please!: Please!: button[name="pizza-please"]
+- Step 0.4, locator of Excluded tools: select
+- Step 0.4, locator of Must be vegetarian: #default-checkbox
+- Step 0.4, locator of Custom Pizza Name: input#pizza-name
+- Step 0.5, pizza name, tool and calories of the run by hand: Lab Pizza 20261113-001600, Pizza cutter, 400 calories
 
 | Step | Actual result | Pass or fail |
 | --- | --- | --- |
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
-| 6 | | |
-| 7 | | |
+| 1 | Heading "Looking to break out of your pizza routine?" appeared | Pass |
+| 2 | All four advanced fields appeared | Pass |
+| 3 | Fields showed 600, Knife selected, vegetarian checked, and Lab Pizza 20261113-001600 | Pass |
+| 4 | Recommended Lab Pizza 20261113-001600 with Tool: Pizza cutter and Calories per slice: 400 | Pass |
+| 5 | Message "Please log in first." appeared | Pass |
+| 6 | Signed in as admin and saw "Latest pizza recommendations" | Pass |
+| 7 | Checked admin list for Lab Pizza 20261113-001600 (tool=Pizza cutter) | Pass |
 
 ## Part 3: Robot Framework
 - robot --version: 
