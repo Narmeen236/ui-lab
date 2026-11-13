@@ -32,8 +32,8 @@ Tool parts that I chose: (Part 3) Robot Framework, (Part 4) Cypress
 - Step 4.3, failure message for the wrong title: Timed out retrying after 10000ms: expected 'Web form' to equal 'Web Form'
 - Step 4.6, tool and calories in the answer of POST /api/pizza: Stuffed, 300
 - Step 4.7, the line of the admin list that shows your pizza: Lab Pizza 20261113-180442 (tool=Pizza cutter, ingredients_number=5)
-- Step 4.8, run 1, result, duration and pizza name: 
-- Step 4.8, run 2, result, duration and pizza name: 
+- Step 4.8, run 1, result, duration and pizza name: All specs passed (2 tests), 21 seconds; Lab Pizza 20261113-181936
+- Step 4.8, run 2, result, duration and pizza name: All specs passed (2 tests), 17 seconds; Lab Pizza 20261113-182606
 - Step 4.9 (optional), browser and result: 
 
 ## Part B
