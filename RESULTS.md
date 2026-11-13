@@ -34,7 +34,7 @@ Tool parts that I chose: (Part 3) Robot Framework, (Part 4) Cypress
 - Step 4.7, the line of the admin list that shows your pizza: Lab Pizza 20261113-180442 (tool=Pizza cutter, ingredients_number=5)
 - Step 4.8, run 1, result, duration and pizza name: All specs passed (2 tests), 21 seconds; Lab Pizza 20261113-181936
 - Step 4.8, run 2, result, duration and pizza name: All specs passed (2 tests), 17 seconds; Lab Pizza 20261113-182606
-- Step 4.9 (optional), browser and result: 
+- Step 4.9 (optional), browser and result: Firefox 160, both specs passed (2 tests), 24 seconds.
 
 ## Part B
 1. 
