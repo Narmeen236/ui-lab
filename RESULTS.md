@@ -28,7 +28,7 @@ Tool parts that I chose: (Part 3) Robot Framework, (Part 4) Cypress
 - Step 3.8, run 2, result, elapsed time and pizza name: PASS, 00:00:13, Lab Pizza 20261113-155711
 
 ## Part 4: Cypress
-- node --version, npm --version and npx cypress version: 
+- node --version, npm --version and npx cypress version: v22.15.0, 10.9.2, Cypress package version: 16.2.1 (Cypress binary version: 16.2.1)
 - Step 4.3, failure message for the wrong title: 
 - Step 4.6, tool and calories in the answer of POST /api/pizza: 
 - Step 4.7, the line of the admin list that shows your pizza: 
