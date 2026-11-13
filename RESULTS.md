@@ -3,8 +3,8 @@
 Tool parts that I chose: (Part 3) Robot Framework, (Part 4) Cypress
 
 ## Part 0
-- Step 0.1, Chrome version: 148.0.7778.179
-- Step 0.3, ChromeDriver version: 148.0.7778.179
+- Step 0.1, Chrome version: 157.0.8103.51
+- Step 0.3, ChromeDriver version: 157.0.8103.51
 - Step 0.4, locator of Pizza, Please!: Please!: button[name="pizza-please"]
 - Step 0.4, locator of Excluded tools: select
 - Step 0.4, locator of Must be vegetarian: #default-checkbox
@@ -23,7 +23,7 @@ Tool parts that I chose: (Part 3) Robot Framework, (Part 4) Cypress
 
 ## Part 3: Robot Framework
 - robot --version: Robot Framework 7.5.1 (Python 3.13.0 on darwin)
-- Step 3.2, failure message for the wrong title: 
+- Step 3.2, failure message for the wrong title: Title should have been 'Web Form' but was 'Web form'.
 - Step 3.8, run 1, result, elapsed time and pizza name: 
 - Step 3.8, run 2, result, elapsed time and pizza name: 
 
